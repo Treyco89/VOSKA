@@ -1,75 +1,32 @@
-# V.A.N.T.A.
+# VOSKA
 
-> A personal AI assistant built from scratch as a long-term AI, automation, and robotics project.
+VOSKA is my personal AI assistant, built in Python. The current prototype runs from the terminal, listens through a microphone, and speaks its replies out loud. I'm building it one feature at a time, with the goal of making it the voice of my VOSKA robot.
 
-## 🧠 About V.A.N.T.A.
+## What works today
 
-V.A.N.T.A. is a personal AI assistant project being built from the ground up in Python.
+- Records audio from a microphone.
+- Processes spoken input and generates a response.
+- Reads responses aloud using text-to-speech.
+- Supports a spoken shutdown command.
 
-The goal is to develop V.A.N.T.A. from a simple command-line assistant into a modular AI system capable of conversation, voice interaction, memory, computer automation, vision, smart-home control, and eventually interaction with physical hardware and robotics.
+## Run the prototype
 
-This project is also a hands-on learning journey into:
+On macOS, open Terminal in the project folder. Activate your Python virtual environment and run the assistant. If your environment folder is named `venv` instead of `.venv`, use `source venv/bin/activate` in the first line.
 
-- Python
-- Artificial Intelligence
-- APIs
-- Git & GitHub
-- Cybersecurity
-- Databases
-- Automation
-- Computer Vision
-- Hardware
-- Robotics
+```bash
+source .venv/bin/activate
+python main.py
+```
 
-## 🚀 Current Version — v0.1
+Use the project's existing dependency and API configuration. Keep API keys out of Git. When the assistant is ready, ask a simple question and check that you hear a spoken reply.
 
-V.A.N.T.A. currently has:
+## Roadmap
 
-- A Python command-line interface
-- User input handling
-- A continuous conversation loop
-- A shutdown command
-- Git version control
-- GitHub repository integration
+- [ ] Add image input so VOSKA can answer questions about what it sees.
+- [ ] Add automation for everyday tasks.
+- [ ] Build a mobile interface.
+- [ ] Connect the voice assistant to the VOSKA desktop robot head.
 
-## 🛠️ Development Roadmap
+## Author
 
-### v0.2 — AI Brain
-Connect V.A.N.T.A. to an AI model so it can understand and respond intelligently.
-
-### v0.3 — Voice
-Add speech-to-text and text-to-speech.
-
-### v0.4 — Tools & Automation
-Allow V.A.N.T.A. to safely perform approved computer tasks.
-
-### v0.5 — Memory
-Add persistent memory using databases and retrieval systems.
-
-### v0.6 — Vision
-Allow V.A.N.T.A. to understand images and camera input.
-
-### v0.7 — Smart Environment
-Integrate smart-home devices, sensors, and other systems.
-
-### v0.8 — Physical V.A.N.T.A. Terminal
-Build dedicated hardware using a Raspberry Pi or similar computer, microphone, speakers, display, LEDs, sensors, and a custom 3D-printed enclosure.
-
-### v0.9+ — Robotics
-Experiment with microcontrollers, motors, robotic arms, rovers, sensors, and physical AI interaction.
-
-## 🔐 Security Philosophy
-
-V.A.N.T.A. is being designed with security in mind from the beginning.
-
-Sensitive credentials such as API keys are never stored directly in source code or uploaded to GitHub.
-
-Future actions involving sensitive data, destructive commands, or physical hardware will require appropriate permissions and confirmation.
-
-## 📌 Project Status
-
-**Early development**
-
-V.A.N.T.A. v0.1 is online.
-
-The journey starts here.
+Jeremy Johnson

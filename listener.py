@@ -5,7 +5,7 @@ import wave
 def record_audio(filename="recording.wav", duration=5):
     sample_rate = 16000
 
-    print("V.A.N.T.A.: Listening...")
+    print("V.O.S.K.A.: Listening...")
 
     audio = sd.rec(
         int(duration * sample_rate),
@@ -22,5 +22,5 @@ def record_audio(filename="recording.wav", duration=5):
         audio_file.setframerate(sample_rate)
         audio_file.writeframes(audio.tobytes())
 
-    print("V.A.N.T.A.: Recording saved.")
+    print("V.O.S.K.A.: Recording saved.")
     return filename
